@@ -1,0 +1,93 @@
+body {
+    clear: both;
+    margin-right: 500px;
+    margin-left:  400px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(img/2.jpeg);
+    width: 500px;
+    font-family: Gabriola;
+    text-align: center;
+    }
+  
+    fieldset {
+    padding:0 20px 20px 20px;
+    margin-bottom:10px;
+    border:1px solid rgb(228, 156, 168);
+    width: 700px;
+    box-shadow: 20px 15px 35px rgb(163, 79, 107);
+    }
+    
+    label {
+    margin-top:10px;
+    display:block;
+    }
+   
+    input, textarea, select, option {
+    background-color: pink
+    }
+    input, textarea, select {
+    padding:3px;
+    background-color: #f2f2f2;
+    border-radius:5px;
+    width:200px;
+    box-shadow:1px 1px 2px palevioletred;
+    }
+   select {
+    margin-top:10px;
+    }
+   input[type=radio] {
+    background-color:transparent;
+    border:none;
+    width:10px;
+    }
+   input[type=submit], input[type=reset] {
+    width:100px;
+    margin-left: 180px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+     box-shadow:1px 1px 1px #a05857;
+     cursor:pointer;
+     display: flex;
+     flex-wrap: wrap;
+    background-color: palevioletred;
+    border: none;
+    color: white;
+    }
+    h2{
+        display: flex; flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+            align-content: center;
+            position:sticky;
+            top:0px;
+            font-size: 45px;
+            font-family: Gabriola;
+           position:sticky;
+            top:0px}
+    }
+    .V{display: flex;
+        justify-content: space-between;
+        
+    }
+   .V input {
+       font-size: 12PX;
+       background-color: brown;
+       border: none;
+       color: white;
+       text-decoration: none;
+       cursor: pointer;
+   }
+   
+   .msg{
+
+       display: block;
+       align-content: center;  
+   }
+   .texte{
+    font-family: Gabriola;
+    font-size: 30px; 
+    color: palevioletred ;
+   }
